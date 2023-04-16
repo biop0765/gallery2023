@@ -13,7 +13,7 @@ android {
     ndkVersion "22.1.7171670"
 
     defaultConfig {
-        applicationId "com.android.leafpicrevived"
+        applicationId "com.android.gallery2023"
         minSdkVersion 21
         targetSdkVersion 28
         versionName "v0.8.7"

@@ -43,12 +43,12 @@
             android:theme="@style/ThemeOverlay.AppCompat.Light"
             app:borderWidth="@dimen/fab_border_width"
             app:elevation="@dimen/fab_elevation"
-            app:layout_behavior="com.android.leafpicrevived.views.FabScrollBehaviour"
+            app:layout_behavior="com.android.gallery2023.views.FabScrollBehaviour"
             app:pressedTranslationZ="@dimen/fab_pressed_translationZ" />
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
-    <com.android.leafpicrevived.views.navigation_drawer.NavigationDrawer
+    <com.android.gallery2023.views.navigation_drawer.NavigationDrawer
         android:id="@+id/home_navigation_drawer"
         android:layout_width="@dimen/nav_drawer_width"
         android:layout_height="match_parent"

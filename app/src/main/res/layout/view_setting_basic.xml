@@ -14,7 +14,7 @@
         android:paddingTop="@dimen/sub_medium_spacing"
         android:paddingRight="@dimen/medium_spacing">
 
-        <com.android.leafpicrevived.views.themeable.ThemedSettingsIcon
+        <com.android.gallery2023.views.themeable.ThemedSettingsIcon
             android:id="@+id/icon"
             android:layout_width="@dimen/icon_size"
             android:layout_height="@dimen/icon_size"
@@ -30,7 +30,7 @@
             android:gravity="center_vertical"
             android:orientation="vertical">
 
-            <com.android.leafpicrevived.views.themeable.ThemedSettingsTitle
+            <com.android.gallery2023.views.themeable.ThemedSettingsTitle
                 android:id="@+id/title"
                 style="@style/TextAppearance.AppCompat.Subhead"
                 android:layout_width="match_parent"
@@ -38,7 +38,7 @@
                 android:textColor="@color/md_grey_200"
                 tools:text="title text goes here"/>
 
-            <com.android.leafpicrevived.views.themeable.ThemedSettingsCaption
+            <com.android.gallery2023.views.themeable.ThemedSettingsCaption
                 android:id="@+id/caption"
                 style="@style/TextAppearance.AppCompat.Caption"
                 android:layout_width="match_parent"

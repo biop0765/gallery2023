@@ -13,7 +13,7 @@
         android:background="@color/md_dark_appbar"
         android:windowActionBarOverlay="true" />
 
-    <com.android.leafpicrevived.views.HackyViewPager
+    <com.android.gallery2023.views.HackyViewPager
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/photos_pager"
         android:layout_width="match_parent"

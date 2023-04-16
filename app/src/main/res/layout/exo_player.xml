@@ -18,7 +18,7 @@
 
     </com.google.android.exoplayer2.ui.AspectRatioFrameLayout>
 
-    <com.android.leafpicrevived.views.videoplayer.CustomPlayBackController
+    <com.android.gallery2023.views.videoplayer.CustomPlayBackController
         android:id="@+id/control"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>

@@ -21,7 +21,7 @@
     android:keepScreenOn="true">
 
 
-    <com.android.leafpicrevived.views.videoplayer.CustomExoPlayerView
+    <com.android.gallery2023.views.videoplayer.CustomExoPlayerView
         android:id="@+id/player_view"
         android:focusable="true"
         android:layout_width="match_parent"
