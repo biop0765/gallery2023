@@ -27,12 +27,12 @@ android {
         release {
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            resValue "string", "app_name", "LeafPic Revived"
+            //resValue "string", "app_name", "Gallery"
         }
         debug {
             minifyEnabled true
             applicationIdSuffix ".debug"
-            resValue "string", "app_name", "LeafPic Revived (debug)"
+            //resValue "string", "app_name", "Gallery"
         }
     }
 
