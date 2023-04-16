@@ -1,7 +1,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.alienpants.leafpicrevived.activities.MainActivity">
+    tools:context="com.android.leafpicrevived.activities.MainActivity">
 
     <item
         android:id="@+id/filter_menu"
@@ -9,7 +9,7 @@
         app:showAsAction="ifRoom">
         <menu xmlns:android="http://schemas.android.com/apk/res/android"
             xmlns:app="http://schemas.android.com/apk/res-auto"
-            tools:context="com.alienpants.leafpicrevived.activities.MainActivity">
+            tools:context="com.android.leafpicrevived.activities.MainActivity">
             <group android:checkableBehavior="single">
                 <item
                     android:id="@+id/all_media_filter"

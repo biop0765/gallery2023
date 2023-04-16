@@ -1,7 +1,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.alienpants.leafpicrevived.activities.SingleMediaActivity">
+    tools:context="com.android.leafpicrevived.activities.SingleMediaActivity">
     <group android:id="@+id/only_photos_options">
         <item
             android:id="@+id/action_edit"

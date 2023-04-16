@@ -131,6 +131,6 @@
         android:layout_alignParentEnd="true"
         android:layout_gravity="bottom|end"
         android:theme="@style/ThemeOverlay.AppCompat.Light" />
-    <!--app:layout_behavior="com.alienpants.leafpicrevived.views.FabScrollBehaviour"-->
+    <!--app:layout_behavior="com.android.leafpicrevived.views.FabScrollBehaviour"-->
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -25,7 +25,7 @@
             android:orientation="vertical">
 
             <!--GENERAL-->
-            <com.alienpants.leafpicrevived.views.themeable.ThemedCardView
+            <com.android.leafpicrevived.views.themeable.ThemedCardView
                 android:id="@+id/general_setting_card"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -41,7 +41,7 @@
                     android:orientation="vertical"
                     android:paddingBottom="@dimen/small_spacing">
 
-                    <com.alienpants.leafpicrevived.views.themeable.ThemedSettingsCategory
+                    <com.android.leafpicrevived.views.themeable.ThemedSettingsCategory
                         android:id="@+id/general_setting_title"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -53,7 +53,7 @@
                         android:textStyle="bold"/>
 
                     <!-- SECURITY -->
-                    <com.alienpants.leafpicrevived.views.SettingBasic
+                    <com.android.leafpicrevived.views.SettingBasic
                         android:id="@+id/ll_security"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -62,7 +62,7 @@
                         app:settingTitle="@string/security"/>
 
                     <!-- NUMBER OF COLUMNS -->
-                    <com.alienpants.leafpicrevived.views.SettingBasic
+                    <com.android.leafpicrevived.views.SettingBasic
                         android:id="@+id/ll_n_columns"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -71,7 +71,7 @@
                         app:settingTitle="@string/multi_column"/>
 
                     <!-- EXCLUDED ALBUM-->
-                    <com.alienpants.leafpicrevived.views.SettingBasic
+                    <com.android.leafpicrevived.views.SettingBasic
                         android:id="@+id/ll_white_list"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -80,7 +80,7 @@
                         app:settingTitle="@string/manage_your_folders"/>
 
                     <!-- FAB OPTIONS -->
-                    <com.alienpants.leafpicrevived.views.SettingWithSwitchView
+                    <com.android.leafpicrevived.views.SettingWithSwitchView
                         android:id="@+id/option_fab"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -90,7 +90,7 @@
                         app:settingTitle="@string/fab_options"/>
 
                     <!-- TIPS -->
-                    <com.alienpants.leafpicrevived.views.SettingWithSwitchView
+                    <com.android.leafpicrevived.views.SettingWithSwitchView
                         android:id="@+id/option_tips"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -100,7 +100,7 @@
                         app:settingTitle="@string/option_show_tips"/>
 
                     <!-- CHANGE LANGUAGE -->
-                    <com.alienpants.leafpicrevived.views.SettingWithSwitchView
+                    <com.android.leafpicrevived.views.SettingWithSwitchView
                         android:id="@+id/option_language"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -109,10 +109,10 @@
                         app:settingPreferenceKey="@string/preference_force_english"
                         app:settingTitle="@string/option_change_language" />
                 </LinearLayout>
-            </com.alienpants.leafpicrevived.views.themeable.ThemedCardView>
+            </com.android.leafpicrevived.views.themeable.ThemedCardView>
 
             <!--THEME-->
-            <com.alienpants.leafpicrevived.views.themeable.ThemedCardView
+            <com.android.leafpicrevived.views.themeable.ThemedCardView
                 android:id="@+id/theme_setting_card"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -128,7 +128,7 @@
                     android:orientation="vertical"
                     android:paddingBottom="@dimen/small_spacing">
 
-                    <com.alienpants.leafpicrevived.views.themeable.ThemedSettingsCategory
+                    <com.android.leafpicrevived.views.themeable.ThemedSettingsCategory
                         android:id="@+id/theme_setting_title"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -140,7 +140,7 @@
                         android:textStyle="bold"/>
 
                     <!--BASIC THEME-->
-                    <com.alienpants.leafpicrevived.views.SettingBasic
+                    <com.android.leafpicrevived.views.SettingBasic
                         android:id="@+id/ll_basic_theme"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -149,7 +149,7 @@
                         app:settingTitle="@string/base_theme"/>
 
                     <!--PRIMARY COLOR-->
-                    <com.alienpants.leafpicrevived.views.SettingBasic
+                    <com.android.leafpicrevived.views.SettingBasic
                         android:id="@+id/ll_primaryColor"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -158,7 +158,7 @@
                         app:settingTitle="@string/primary_color"/>
 
                     <!--ACCENT COLOR-->
-                    <com.alienpants.leafpicrevived.views.SettingBasic
+                    <com.android.leafpicrevived.views.SettingBasic
                         android:id="@+id/ll_accentColor"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -167,7 +167,7 @@
                         app:settingTitle="@string/accent_color"/>
 
                     <!-- APPLY THEME ON 3TH ACT -->
-                    <com.alienpants.leafpicrevived.views.SettingBasic
+                    <com.android.leafpicrevived.views.SettingBasic
                         android:id="@+id/ll_custom_thirdAct"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -176,7 +176,7 @@
                         app:settingTitle="@string/media_viewer"/>
 
                     <!-- CARD VIEW STYLE -->
-                    <com.alienpants.leafpicrevived.views.SettingBasic
+                    <com.android.leafpicrevived.views.SettingBasic
                         android:id="@+id/ll_card_view_style"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -185,7 +185,7 @@
                         app:settingTitle="@string/album_card_view"/>
 
                     <!-- CUSTOM ICON COLOR -->
-                    <com.alienpants.leafpicrevived.views.SettingWithSwitchView
+                    <com.android.leafpicrevived.views.SettingWithSwitchView
                         android:id="@+id/ll_custom_icon_color"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -197,7 +197,7 @@
                         app:settingTitle="@string/custom_icon_color"/>
 
                     <!-- TRANSLUCENT STATUS BAR-->
-                    <com.alienpants.leafpicrevived.views.SettingWithSwitchView
+                    <com.android.leafpicrevived.views.SettingWithSwitchView
                         android:id="@+id/option_statusbar"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -209,7 +209,7 @@
                         app:settingTitle="@string/traslucent_statusbar"/>
 
                     <!--COLORED NAV BAR-->
-                    <com.alienpants.leafpicrevived.views.SettingWithSwitchView
+                    <com.android.leafpicrevived.views.SettingWithSwitchView
                         android:id="@+id/option_colored_navbar"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -221,10 +221,10 @@
                         app:settingTitle="@string/colored_navbar"/>
 
                 </LinearLayout>
-            </com.alienpants.leafpicrevived.views.themeable.ThemedCardView>
+            </com.android.leafpicrevived.views.themeable.ThemedCardView>
 
             <!--MEDIA VIEWER SETTING-->
-            <com.alienpants.leafpicrevived.views.themeable.ThemedCardView
+            <com.android.leafpicrevived.views.themeable.ThemedCardView
                 android:id="@+id/preview_picture_setting_card"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -240,7 +240,7 @@
                     android:orientation="vertical"
                     android:paddingBottom="@dimen/small_spacing">
 
-                    <com.alienpants.leafpicrevived.views.themeable.ThemedSettingsCategory
+                    <com.android.leafpicrevived.views.themeable.ThemedSettingsCategory
                         android:id="@+id/picture_setting_title"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -252,7 +252,7 @@
                         android:textStyle="bold"/>
 
                     <!--MAX BRIGHTNESS-->
-                    <com.alienpants.leafpicrevived.views.SettingWithSwitchView
+                    <com.android.leafpicrevived.views.SettingWithSwitchView
                         android:id="@+id/option_max_brightness"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -262,7 +262,7 @@
                         app:settingTitle="@string/max_brightness"/>
 
                     <!-- PICTURE ORIENTATION-->
-                    <com.alienpants.leafpicrevived.views.SettingWithSwitchView
+                    <com.android.leafpicrevived.views.SettingWithSwitchView
                         android:id="@+id/option_picture_orientation"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -272,7 +272,7 @@
                         app:settingTitle="@string/picture_orientation"/>
 
                     <!-- FULL resolution TODO: do something -->
-                    <com.alienpants.leafpicrevived.views.SettingWithSwitchView
+                    <com.android.leafpicrevived.views.SettingWithSwitchView
                         android:id="@+id/option_full_resolution"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -283,7 +283,7 @@
                         app:settingTitle="@string/delay_load_full_size_image"/>
 
                     <!--SWIPE ORIENTATION TODO: implement feature -->
-                    <com.alienpants.leafpicrevived.views.SettingWithSwitchView
+                    <com.android.leafpicrevived.views.SettingWithSwitchView
                         android:id="@+id/option_swipe_direction"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -294,10 +294,10 @@
                         app:settingTitle="@string/media_viewer_swipe_direction"/>
 
                 </LinearLayout>
-            </com.alienpants.leafpicrevived.views.themeable.ThemedCardView>
+            </com.android.leafpicrevived.views.themeable.ThemedCardView>
 
             <!--VIDEO PLAYER SETTINGS-->
-            <com.alienpants.leafpicrevived.views.themeable.ThemedCardView
+            <com.android.leafpicrevived.views.themeable.ThemedCardView
                 android:id="@+id/video_setting_card"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -313,7 +313,7 @@
                     android:orientation="vertical"
                     android:paddingBottom="@dimen/small_spacing">
 
-                    <com.alienpants.leafpicrevived.views.themeable.ThemedSettingsCategory
+                    <com.android.leafpicrevived.views.themeable.ThemedSettingsCategory
                         android:id="@+id/video_setting_title"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -325,7 +325,7 @@
                         android:textStyle="bold"/>
 
                     <!-- INCLUDE VIDEO -->
-                    <com.alienpants.leafpicrevived.views.SettingWithSwitchView
+                    <com.android.leafpicrevived.views.SettingWithSwitchView
                         android:id="@+id/option_include_video"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -334,7 +334,7 @@
                         app:settingPreferenceKey="@string/preference_include_video"
                         app:settingTitle="@string/include_video"/>
 
-                    <com.alienpants.leafpicrevived.views.SettingWithSwitchView
+                    <com.android.leafpicrevived.views.SettingWithSwitchView
                         android:id="@+id/option_instant_play_video"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -344,10 +344,10 @@
                         app:settingTitle="@string/video_instant_play"/>
 
                 </LinearLayout>
-            </com.alienpants.leafpicrevived.views.themeable.ThemedCardView>
+            </com.android.leafpicrevived.views.themeable.ThemedCardView>
 
             <!--ADVANCED SETTING-->
-            <com.alienpants.leafpicrevived.views.themeable.ThemedCardView
+            <com.android.leafpicrevived.views.themeable.ThemedCardView
                 android:id="@+id/advanced_setting_card"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -363,7 +363,7 @@
                     android:orientation="vertical"
                     android:paddingBottom="@dimen/small_spacing">
 
-                    <com.alienpants.leafpicrevived.views.themeable.ThemedSettingsCategory
+                    <com.android.leafpicrevived.views.themeable.ThemedSettingsCategory
                         android:id="@+id/advanced_setting_title"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -375,7 +375,7 @@
                         android:textStyle="bold"/>
 
                     <!-- SUB SCALING-->
-                    <com.alienpants.leafpicrevived.views.SettingWithSwitchView
+                    <com.android.leafpicrevived.views.SettingWithSwitchView
                         android:id="@+id/option_sub_scaling"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -385,7 +385,7 @@
                         app:settingTitle="@string/sub_scaling_image_view"/>
 
                     <!-- MAPS PROVIDER-->
-                    <com.alienpants.leafpicrevived.views.SettingBasic
+                    <com.android.leafpicrevived.views.SettingBasic
                         android:id="@+id/ll_map_provider"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -394,7 +394,7 @@
                         app:settingTitle="@string/map_provider"/>
 
                     <!-- AUTO UPDATE MEDIA -->
-                    <com.alienpants.leafpicrevived.views.SettingWithSwitchView
+                    <com.android.leafpicrevived.views.SettingWithSwitchView
                         android:id="@+id/option_auto_update_media"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -404,7 +404,7 @@
                         app:settingTitle="@string/auto_update_media"/>
 
                     <!-- DISABLE ANIMATIONS -->
-                    <com.alienpants.leafpicrevived.views.SettingWithSwitchView
+                    <com.android.leafpicrevived.views.SettingWithSwitchView
                         android:id="@+id/option_disable_animations"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -414,7 +414,7 @@
                         app:settingTitle="@string/disable_animations"/>
 
                     <!-- Enable Timeline -->
-                    <com.alienpants.leafpicrevived.views.SettingWithSwitchView
+                    <com.android.leafpicrevived.views.SettingWithSwitchView
                         android:id="@+id/option_enable_timeline"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -424,7 +424,7 @@
                         app:settingTitle="@string/enable_timeline_title"/>
 
                 </LinearLayout>
-            </com.alienpants.leafpicrevived.views.themeable.ThemedCardView>
+            </com.android.leafpicrevived.views.themeable.ThemedCardView>
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

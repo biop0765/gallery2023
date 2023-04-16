@@ -19,7 +19,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
-            <com.alienpants.leafpicrevived.views.SquareRelativeLayout
+            <com.android.leafpicrevived.views.SquareRelativeLayout
                 android:id="@+id/header_album_card"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
@@ -37,13 +37,13 @@
                     app:iiv_icon="gmd-check"
                     tools:targetApi="lollipop" />
 
-                <com.alienpants.leafpicrevived.views.SquareImageView
+                <com.android.leafpicrevived.views.SquareImageView
                     android:id="@+id/album_preview"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:scaleType="centerCrop" />
 
-            </com.alienpants.leafpicrevived.views.SquareRelativeLayout>
+            </com.android.leafpicrevived.views.SquareRelativeLayout>
 
             <View
                 android:id="@+id/album_card_divider"
